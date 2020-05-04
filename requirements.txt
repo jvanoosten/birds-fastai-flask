@@ -2,5 +2,5 @@ spacy>=2.2
 cython>=0.29 
 numpy==1.18.4
 torch>=1.4
-fastai==1.0.60
+fastai
 Flask==1.1.1
