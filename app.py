@@ -2,9 +2,20 @@
 import numpy as np
 from flask import Flask, request, render_template
 import pickle
+
+import subprocess
+import sys
+
+try:
+    import fastai
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", 'fastai==1.0.60'])
+finally:
+    import fastai
+
 from fastai.tabular import *
 from fastai.vision import open_image
-# import fastai
+
 import os
 
 #Saving the working directory and model directory
