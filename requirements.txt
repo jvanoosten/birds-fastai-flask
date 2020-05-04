@@ -1,4 +1,4 @@
+numpy==1.18.4
+torch==1.5.0
 fastai==1.0.60
-Flask==1.1.2
-cloudpickle==1.2.2
-pickleshare==0.7.5
+Flask==1.1.1
