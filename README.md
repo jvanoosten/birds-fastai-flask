@@ -68,8 +68,13 @@ Administrator to Developer and select Topology on the left of the console.   Fro
 
 ![Application Build from Git Project!](images/Import_from_Git_bottom.jpg "OpenShift Import from Git bottom")
 
+Press the create button to create the project and begin the build.
+
+Once the build is complete, the app will have a dark blue ring filled around it and the Open URL will be active in the top right corner of the application circle. 
  
 ![Application Build from Git Project!](images/OpenShift_app_ready.jpg "OpenShift App Ready")
+
+The application's POST API `predict` method can be now be called as shown via Postman program. 
 
 ![Application Execution!](images/Postman_and_Bird_Predictor.jpg "Prediction call from Postman POST API")
 
