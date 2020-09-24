@@ -1,0 +1,33 @@
+name: wml-ce-170
+channels:
+  - https://public.dhe.ibm.com/ibmdl/export/pub/software/server/ibm-ai/conda/
+  - fastai
+  - powerai
+  - defaults
+dependencies:
+  - fastai
+  - jupyter
+  - tornado=5.1.1
+  - numba
+  - numpy
+  - openblas 
+  - pandas
+  - python=3.6
+  - keras
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - pai4sk
+  - seaborn
+  - cuml
+  - cudf
+  - powerai=1.7.0
+  - cudatoolkit-dev
+  - pycrypto
+  - paramiko
+  - pip
+  - pip:
+    - sparkmagic
+    - qpython
+    - findspark
+    - tensorflow_datasets
